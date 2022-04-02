@@ -25,8 +25,10 @@ h3 {
 /*end here*/
 
 body {
+  width: auto;
+  align-content: center;
   text-align: center; /*lets you center elements*/
-  background-color: #d9eeec;
+  background-color:	#FFFFFF;
   font-family: 'Hepta Slab', serif;
 }
 
@@ -38,9 +40,15 @@ p {
 }
 
 /****class selectors*****/
+.top-container {
+  width: 100%;
+
+}
 
 .profile-container {
   padding-top: 100px;
+  align-content: center;
+  padding-right: -10pc;
 }
 
 .middle-container {
@@ -50,13 +58,18 @@ p {
 .profile {
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 50%;
 }
 
 .profilepic {
   border-radius: 50%;
   height: 200px;
   width: 200px;
-  float: buttom;
+
 }
 
 .skill-row {
@@ -65,8 +78,6 @@ p {
   text-align: left;
   line-height: 2;
 }
-
-
 
 
 
@@ -88,13 +99,20 @@ p {
   line-height: 2;
   padding-top: 100px;
   padding-bottom: 150px;
+  margin-left: 25%;
+    margin-right: 25%;
+}
+
+.btn-info {
+    margin-top: 100px;
+
 }
 
 .bottom-container {
-
+padding-right: -5%;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #66BFBF;
+  background-color: #F5F5F5;
 }
 
 
@@ -103,8 +121,13 @@ p {
    text-decoration: none;
    padding-left: 30px;
    padding-right: 30px;
+   
 }
 
 .footer-link:hover {
   color: dodgerblue;
+}
+
+#footer {
+  padding-top: -400px;
 }
