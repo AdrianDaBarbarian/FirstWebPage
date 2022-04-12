@@ -28,7 +28,7 @@ body {
   width: auto;
   align-content: center;
   text-align: center; /*lets you center elements*/
-  background-color:	#FFFFFF;
+  background-color:	lightgrey;
   font-family: 'Hepta Slab', serif;
 }
 
@@ -88,11 +88,27 @@ p {
   margin-right: 30px;
 }
 
+.skillspic1 {
+  border-radius: 6rem;
+  height: 200px;
+  width: 200px;
+  float: right; /*floats the img to a side so the text wraps around it.*/
+  margin-right: 30px;
+}
+
 .skillspic2 {
   height: 200px;
   width: 200px;
-  float: right;
+  float: eft;
   margin-left: 30px;
+}
+
+.skillspic3 {
+  border-radius: 6rem;
+  height: 200px;
+  width: 200px;
+  float: right; /*floats the img to a side so the text wraps around it.*/
+  margin-right: 30px;
 }
 
 .contact-me {
